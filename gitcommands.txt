@@ -1,0 +1,17 @@
+Create a local folder, go into the folder and right click intialise git bash
+
+on git  prompt -   git init 
+
+git add origin "repository link"                 // -u originname
+
+git status -  shows which files are added to index and ready to commit
+
+Clone a repo -  git clone repourl
+git clone- Just download a git repository to your pc
+
+git pull- pulls the changes done by other developers
+
+
+got fetch - Downloads commits, objects and refs from another repository. It fetches branches and tags from one or more repositories
+
+git status -  shows which files are added to index and ready to commit
