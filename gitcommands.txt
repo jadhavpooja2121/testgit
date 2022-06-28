@@ -56,6 +56,9 @@ branching
 Switch to the branch
     git checkout branchname
 
+        or both combined
+        git checkout -b newbranchname
+
 Rebasing 
     from master to newbranch: all the content inside master will reflect to the newbranch
     editor branch master
@@ -68,3 +71,15 @@ Get out of the merge mode
 
 git merge - with master 
     git merge otherbranchname
+
+ Merge vs rebase
+     merge preserves history as it happened, rebase rewrites it   
+
+git Push
+git push originname
+ git push origin4
+
+    
+Git pull
+    git pull origin branchname from which you want to add the changes to the current branch
+     git pull origin4 master
