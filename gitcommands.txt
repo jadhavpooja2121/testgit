@@ -1,3 +1,5 @@
+Open a folder in VScode, and use Source control tab
+
 Create a local folder, go into the folder and right click intialise git bash
 
 Initialise git
