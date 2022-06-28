@@ -17,7 +17,6 @@ Add a file to staging area
 Commit the changes 
     git commit -m "message"
 
-<<<<<<< HEAD
     git commit -A -m "message"        also adds it to the index
 
 PUsh in Git
@@ -26,22 +25,11 @@ PUsh in Git
 
 Clone a repo
     git clone repourl
-=======
-    git commit -A -m "message"        also adds it to the index
-
-PUsh in Git
-    git push origin2 master                      //origin2 can be any name
-
-
-Clone a repo
-    git clone repourl
->>>>>>> 42a1c1a (first branch changes)
 
 git clone- Just download a git repository to your pc
 
 git pull- pulls the changes done by other developers
 
-<<<<<<< HEAD
 git fetch - Downloads commits, objects and refs from another repository. It fetches branches and tags from one or more repositories
 
 git status -  shows which files are added to index and ready to commit
@@ -56,7 +44,6 @@ Rebasing
     
 Get out of the merge mode 
     git-reset or git merge --abort 
-=======
 
 git fetch - Downloads commits, objects and refs from another repository. It fetches branches and tags from one or more repositories
 
@@ -69,7 +56,13 @@ Switch to the branch
 
 Rebasing 
     from master to newbranch: all the content inside master will reflect to the newbranch
+    editor branch master
+    command - git rebase firstbranch 
+Continue the operation
+    git rebase --continue
     
 Get out of the merge mode 
     git-reset or git merge --abort 
->>>>>>> 42a1c1a (first branch changes)
+
+git merge - with master 
+    git merge otherbranchname
