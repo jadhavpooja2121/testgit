@@ -1,25 +1,38 @@
 Create a local folder, go into the folder and right click intialise git bash
 
-on git  prompt -   git init 
+Initialise git
+    git init 
 
-git remote add origin "repository link"                 // -u originname
+Set the origin 
+    git remote add origin "repository link"                 // -u originname
 
-git status -  shows which files are added to index and ready to commit
+show which files are added to index and ready to commit
+    git status
 
-git add filename.ext
+Add a file to staging area 
+    git add filename.ext
 
-add all files - git add . or git add -A 
+    add all files - git add . or git add -A 
 
-git commit -m "message"
+Commit the changes 
+    git commit -m "message"
 
-git commit -A -m "message"
+    git commit -A -m "message"
 
-Clone a repo -  git clone repourl
+PUsh in Git
+    git push origin2 master                      //origin2 can be any name
+
+
+Clone a repo
+    git clone repourl
+
 git clone- Just download a git repository to your pc
 
 git pull- pulls the changes done by other developers
 
-
-got fetch - Downloads commits, objects and refs from another repository. It fetches branches and tags from one or more repositories
+git fetch - Downloads commits, objects and refs from another repository. It fetches branches and tags from one or more repositories
 
 git status -  shows which files are added to index and ready to commit
+
+branching 
+    git branch "branchname"
