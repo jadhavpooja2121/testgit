@@ -36,3 +36,11 @@ git status -  shows which files are added to index and ready to commit
 
 branching 
     git branch "branchname"
+Switch to the branch
+    git checkout branchname
+
+Rebasing 
+    from master to newbranch: all the content inside master will reflect to the newbranch
+    
+Get out of the merge mode 
+    git-reset or git merge --abort 
